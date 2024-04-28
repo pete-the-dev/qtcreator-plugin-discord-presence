@@ -1,6 +1,6 @@
 name: Build CuteDiscordPresence on multiple platforms
 
-on: [push]
+on: [push, workflow_dispatch]
 
 # The version of Qt must be the same as the one used to build Qt Creator. 
 # To check this: Help -> System Information within Qt Creator
